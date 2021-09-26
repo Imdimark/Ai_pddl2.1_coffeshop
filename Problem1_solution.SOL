@@ -1,0 +1,31 @@
+
+; Version LPG-td-1.4
+; Seed 1000000
+; Command line: ./lpg++ -o Domain.pddl -f Problem1.pddl -n 3 -force_neighbour_insertion -seed 1000000 
+; Problem Problem1.pddl
+; Time 0.17
+; Search time 0.15
+; Parsing time 0.02
+; Mutex time 0.00
+; MetricValue 18.00
+
+0.0003:   (MAKE_COLD D2 T0 AG1) [3.0000]
+3.0005:   (PICK_DRINK_COLD AG1 T0 D2) [0.0000]
+0.0002:   (MOVE T1 T3 AG2) [0.5000]
+0.5005:   (CLEANING AG2 T3) [4.0000]
+3.0010:   (MOVE T0 T2 AG1) [1.0000]
+4.0013:   (PUT-CONSUME-COLD D2 T2 AG1) [4.0000]
+4.0017:   (MOVE T2 T0 AG1) [1.0000]
+3.0005:   (MAKE_COLD D1 T0 AG1) [3.0000]
+8.0017:   (PICK_DRINK_COLD AG1 T0 D1) [0.0000]
+8.0022:   (MOVE T0 T2 AG1) [1.0000]
+9.0025:   (PUT-CONSUME-COLD D1 T2 AG1) [4.0000]
+9.0030:   (MOVE T2 T0 AG1) [1.0000]
+13.0030:   (BISCUIT T0 T2 AG1) [1.0000]
+14.0032:   (MOVE T2 T0 AG1) [1.0000]
+15.0035:   (BISCUIT T0 T2 AG1) [1.0000]
+16.0037:   (CLEANING AG1 T2) [2.0000]
+4.5010:   (MOVE T3 T4 AG2) [0.5000]
+5.0012:   (CLEANING AG2 T4) [2.0000]
+
+
